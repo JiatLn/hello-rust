@@ -4,6 +4,10 @@ use std::{cmp::Ordering, io};
 fn main() {
     let num = rand::thread_rng().gen_range(1..=10);
 
+    for i in (1..4).rev() {
+        println!("{}", i);
+    }
+
     println!("请输入一个数字");
 
     loop {
